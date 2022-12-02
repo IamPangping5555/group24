@@ -1,11 +1,43 @@
 <!DOCTYPE html> 
 <html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/mystyle.css">
+
     <title>NMS</title>
+
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(/LeagueSpartan-Bold.otf);
+        }
+
+        .head{
+            background-color: rgb(48, 48, 48);
+            text-align: center;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+        }
+        .customnav{
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            font-size: small;
+            outline: 0px;
+            opacity: 0.7;
+            transition: all 0.4s;
+        }
+        .customnav:hover{
+            transform: translateY(-10px);
+            opacity: 1;
+        }
+
+    </style>
+
     <body>
-        <h1>1. Hello HTML 5</h1>
-        <h2>2. Hello HTML 5</h2>
-        <h3>3. Hello HTML 5</h3>
-        <h4>4. Hello HTML 5</h4>
-        <h6>5. Hello HTML 5</h6>
+        <div class="head">
+            <h1 >Portfolio</h1>
+            <li><a href="#index">Home</a></li>
+        </div>
     </body>
 </html>
