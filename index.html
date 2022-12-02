@@ -9,14 +9,26 @@
 
     <style>
         @font-face {
-            font-family: myfont;
-            src: url(/LeagueSpartan-Bold.otf);
+            font-family: myfont1;
+            src: url(font/LeagueSpartan-Bold.otf);
+        }
+        @font-face {
+            font-family: myfont2;
+            src: url(font/Mitr\ Regular.ttf);
         }
 
         .head{
             background-color: rgb(48, 48, 48);
             text-align: center;
             font-size: 15px;
+            font-family: myfont1;
+            color: rgb(255, 255, 255);
+        }
+        .ar{
+            background-color: rgb(48, 48, 48);
+            text-align: center;
+            font-size: 15px;
+            font-family: myfont1;
             color: rgb(255, 255, 255);
         }
         .customnav{
@@ -36,12 +48,34 @@
 
     <body>
         <div class="head">
-            <h1 >Portfolio</h1>
-            <section>
-                <nav>
-                    <li class="customnav"><a href="#contact">Contact</a></li>
-                </nav>
-            </section>
+            <h1 ><br>Home</h1>
+            
+            <nav>
+                <a href="index.html" class="customnav">Home</a> | 
+                <a href="contact.html" class="customnav">Contact</a> | 
+                <a href="portfolio.html" class="customnav">Portfolio</a>
+            </nav>
+            
+            
+        </div>
+        <div class="ar"><article>
+            <h2 style="font-family: myfont2;">ข่าวประชาสัมพันธ์</h2>
+            <p style="font-family: myfont2;font-size: medium;">ขอแสดงความยินดีกับเด็ก ม.ต้น ได้รับเงินรางวัล 9,000 บาท</p>
+            <img src="image/tysf02.jpg" width="device-width">
+            
+            <p style="font-family: myfont2;font-size: medium;">ขอแสดงความยินดีกับเด็ก ม.ปลาย ได้รับเงินรางวัล 6,000 บาท</p>
+            <img src="image/tysf04.jpg" width="device-width">
+        </article></div>
+        <div class="head">
+            <br>
+            <h3>Footer</h3>
+            <br>
+                
+            <a href="index.html" class="customnav">Home</a> <br>
+            <a href="contact.html" class="customnav">Contact</a><br>
+            <a href="portfolio.html" class="customnav">Portfolio</a><br>
+            <p style="color:white;"><br>News Source : <a href="http://www.pccpl.ac.th/" target="_blank" style="color:white;">Pcshs Pl</a></p> 
+            <br>
         </div>
     </body>
 </html>
